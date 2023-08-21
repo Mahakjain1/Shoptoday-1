@@ -31,7 +31,7 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", ProductRoutes);
 
-//rest api
+// rest api
 // app.get("/", (req, res) => {
 //   res.send("<h1>Welcome to ecommerce app</h1>");
 // });

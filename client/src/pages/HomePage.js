@@ -9,6 +9,8 @@ import Layout from "./../components/Layout/Layout";
 import { AiOutlineReload } from "react-icons/ai";
 import "../styles/Homepage.css";
 
+import Feature from "../components/Reuse/Feature";
+
 const HomePage = () => {
   const navigate = useNavigate();
   const [cart, setCart] = useCart();
@@ -107,7 +109,7 @@ const HomePage = () => {
     }
   };
   return (
-    <Layout title={"ALl Products - Best offers "}>
+    <Layout title={"ALL Products - Best offers "}>
       {/* banner image */}
       <img
         src="/images/banner.png"
@@ -219,6 +221,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <Feature />
     </Layout>
   );
 };
