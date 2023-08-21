@@ -37,7 +37,11 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <Link to="/" className="navbar-brand">
-              <img src="/images/img/logo.png" alt="bannerimage" width={60} />
+              <img
+                src="client/build/images/img/logo.PNG"
+                alt="bannerimage"
+                width={60}
+              />
               {/* <img src="images/img/logo.png" > */}
               Shoptoday
             </Link>
